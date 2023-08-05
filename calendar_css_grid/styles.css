@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calendary {
+  display: flex;
+  gap: 30px;
+ }
+
+ .month {
+  text-align: center;
+  width: 300px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+ ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* border: 1px solid red; */
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+.day-name {
+  background-color: #eee;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.first-day-july {
+  grid-column-start: 7;
+}
+
+.first-day-august {
+  grid-column-start: 3;
+}
+
+
+
+
+
